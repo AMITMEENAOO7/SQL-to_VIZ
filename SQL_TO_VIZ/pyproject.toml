@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "-"
+version = "0.1.0"
+description = ""
+authors = ["Thrang <thrangsohlang@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.28.0"
+fastapi = "^0.110.0"
+pydantic = "^2.6.3"
+pathlib = "^1.0.1"
+asyncio = "^3.4.3"
+plotly = "^5.19.0"
+pandas = "^2.2.1"
+mysql = "^0.0.3"
+langchain = "^0.1.11"
+sql-metadata = "^2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
